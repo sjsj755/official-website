@@ -1,9 +1,0 @@
-[
-  {
-    "date": "2026-10-07",
-    "mode": "Health Dashboard",
-    "score": 94,
-    "findings": { "critical": 0, "warning": 3, "suggestion": 6 },
-    "scope": "整个仓库（frontend/src 为主，backend 仅有 README/.gitkeep）"
-  }
-]

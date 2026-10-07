@@ -36,3 +36,7 @@ Thumbs.db
 
 # 文档（暂不纳入版本控制，后续需要时移除本段）
 /docs/
+
+# 本地工具产物与脚手架残留
+.brooks-lint-history.json
+/.gitkeep
