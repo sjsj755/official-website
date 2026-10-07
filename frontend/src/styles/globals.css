@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+/* 将设计令牌映射为 Tailwind 工具类：bg-accent、border-line、text-ink-500 等。
+ * inline 模式让工具类直接引用令牌变量，主题切换 = 改 tokens.css。 */
+@theme inline {
+  --color-surface-950: var(--surface-950);
+  --color-surface-800: var(--surface-800);
+  --color-surface-100: var(--surface-100);
+  --color-accent: var(--accent);
+  --color-accent-warn: var(--accent-warn);
+  --color-line: var(--line);
+  --color-line-light: var(--line-light);
+  --color-ink-900: var(--ink-900);
+  --color-ink-500: var(--ink-500);
+  --color-ink-100: var(--ink-100);
+
+  /* 字体：Inter（拉丁）+ 中文系统黑体栈；中文子集化与思源黑体接入属性能预算周任务 */
+  --font-sans: var(--font-inter), "PingFang SC", "Microsoft YaHei",
+    "Noto Sans SC", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+
+  /* 移动抽屉打开动画（ui/dialog 面板；关闭为立即收起，无退场动画） */
+  --animate-drawer-in: drawer-in 0.2s ease-out;
+
+  @keyframes drawer-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+/* 内容容器：1280px 内容宽（前端设计方案 §四 版式） */
+@utility container-page {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-inline: 1rem;
+}
+
+@layer base {
+  body {
+    @apply bg-surface-100 font-sans text-ink-900 antialiased;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: #fff;
+  }
+
+  /* WCAG：全局键盘焦点可见 */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+/* 前端设计方案验收口径 4：prefers-reduced-motion 下零动效 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

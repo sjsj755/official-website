@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "合金硬质合金 | 硬质合金材料、切削刀具与耐磨零件制造商",
+    "template": "%s | 合金硬质合金",
+    "description": "以参数说话的硬质合金制造商：牌号参数、工况解决方案与实测数据全公开，支持中英双语询盘。"
+  },
+  "header": {
+    "brand": "合金硬质合金",
+    "mainNav": "主导航",
+    "skipToContent": "跳转到主内容",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "menuTitle": "导航菜单",
+    "language": "切换语言",
+    "productsMenuAll": "查看全部产品",
+    "nav": {
+      "products": "产品中心",
+      "grades": "牌号查询",
+      "solutions": "解决方案",
+      "cases": "客户案例",
+      "factory": "工厂实力",
+      "certifications": "资质证书",
+      "about": "关于我们",
+      "contact": "联系我们"
+    }
+  },
+  "productLines": {
+    "cutting": {
+      "name": "切削刀具",
+      "description": "车削、铣削、孔加工刀片与整体硬质合金刀具"
+    },
+    "mining": {
+      "name": "矿用工具",
+      "description": "截齿、潜孔钻头、盾构刀具等矿山开采工具"
+    },
+    "wear": {
+      "name": "耐磨零件",
+      "description": "喷嘴、密封环、轧辊等高耐磨制品"
+    },
+    "rods": {
+      "name": "棒材板材",
+      "description": "标准棒材、板材与异型坯料"
+    },
+    "custom": {
+      "name": "非标定制",
+      "description": "按图纸与工况定制非标硬质合金制品"
+    }
+  },
+  "workingConditions": {
+    "steel": "钢件车削",
+    "stainless": "不锈钢加工",
+    "castIron": "铸铁铣削",
+    "mining": "矿山开采",
+    "spray": "耐磨喷涂"
+  },
+  "footer": {
+    "tagline": "以参数说话：牌号、工况、实测数据全公开。",
+    "hotlineLabel": "服务热线",
+    "hotline": "400-800-0000",
+    "sections": {
+      "products": "产品中心",
+      "solutions": "解决方案",
+      "quickLinks": "快速导航"
+    },
+    "quickLinks": {
+      "grades": "牌号查询",
+      "cases": "客户案例",
+      "factory": "工厂实力",
+      "certifications": "资质证书",
+      "news": "技术资讯",
+      "about": "关于我们"
+    },
+    "legal": {
+      "privacy": "隐私政策",
+      "cookies": "Cookie 政策",
+      "terms": "服务条款",
+      "icp": "京ICP备00000000号"
+    },
+    "copyright": "© {year} 合金硬质合金 保留所有权利"
+  },
+  "home": {
+    "heroTitle": "硬质合金材料与精密制品制造商",
+    "heroSubtitle": "为切削加工、矿山开采与耐磨应用提供牌号齐全、数据可核验的硬质合金产品。",
+    "heroPrimaryCta": "浏览产品中心",
+    "heroSecondaryCta": "提交询盘",
+    "inquiryHint": "获取牌号推荐与报价",
+    "productsHeading": "产品中心",
+    "productsSubheading": "五大产品线，覆盖切削、矿山与耐磨应用"
+  },
+  "pages": {
+    "products": {
+      "title": "产品中心",
+      "description": "按牌号与工况筛选硬质合金产品，查看参数表、资料下载并直接发起询盘。"
+    },
+    "grades": {
+      "title": "牌号查询",
+      "description": "全量牌号参数表：钴含量、晶粒度、密度、HRA、抗弯强度，支持筛选与并排对比。"
+    },
+    "solutions": {
+      "title": "解决方案",
+      "description": "按工况组织：问题 → 工况 → 推荐牌号 → 实测数据。"
+    },
+    "cases": {
+      "title": "客户案例",
+      "description": "客户案例：背景 → 工况 → 选型 → 可核验数据。"
+    },
+    "factory": {
+      "title": "工厂实力",
+      "description": "烧结产线流程与检测中心，产能数据持续公开。"
+    },
+    "certifications": {
+      "title": "资质证书",
+      "description": "ISO 体系认证与专利资质，支持放大查看。"
+    },
+    "news": {
+      "title": "技术资讯",
+      "description": "技术文章与行业内容，SEO 内容承载。"
+    },
+    "about": {
+      "title": "关于我们",
+      "description": "企业历程、团队与联系方式。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "询盘表单、图纸上传、服务热线与微信。"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "description": "本页内容由 CMS 统一管理，内容层接入后发布。"
+    },
+    "cookies": {
+      "title": "Cookie 政策",
+      "description": "本页内容由 CMS 统一管理，内容层接入后发布。"
+    },
+    "terms": {
+      "title": "服务条款",
+      "description": "本页内容由 CMS 统一管理，内容层接入后发布。"
+    }
+  },
+  "breadcrumb": {
+    "home": "首页"
+  },
+  "notFound": {
+    "title": "页面不存在",
+    "description": "您访问的页面可能已被移动或删除。",
+    "action": "返回首页"
+  }
+}

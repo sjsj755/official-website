@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Hejin Carbide | Tungsten Carbide Materials, Cutting Tools & Wear Parts",
+    "template": "%s | Hejin Carbide",
+    "description": "A tungsten carbide manufacturer that lets the specs speak: full grade data, application-driven solutions and verifiable test results."
+  },
+  "header": {
+    "brand": "Hejin Carbide",
+    "mainNav": "Main navigation",
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Navigation",
+    "language": "Switch language",
+    "productsMenuAll": "View all products",
+    "nav": {
+      "products": "Products",
+      "grades": "Grade Finder",
+      "solutions": "Solutions",
+      "cases": "Case Studies",
+      "factory": "Factory",
+      "certifications": "Certifications",
+      "about": "About Us",
+      "contact": "Contact"
+    }
+  },
+  "productLines": {
+    "cutting": {
+      "name": "Cutting Tools",
+      "description": "Turning, milling and hole-making inserts plus solid carbide tools"
+    },
+    "mining": {
+      "name": "Mining Tools",
+      "description": "Cutting picks, DTH bits, TBM cutters and other mining tools"
+    },
+    "wear": {
+      "name": "Wear Parts",
+      "description": "Nozzles, seal rings, rolls and other high-wear components"
+    },
+    "rods": {
+      "name": "Rods & Plates",
+      "description": "Standard rods, plates and blanks"
+    },
+    "custom": {
+      "name": "Custom Parts",
+      "description": "Build-to-print carbide parts for your application"
+    }
+  },
+  "workingConditions": {
+    "steel": "Steel Turning",
+    "stainless": "Stainless Steel",
+    "castIron": "Cast Iron Milling",
+    "mining": "Mining",
+    "spray": "Wear Spraying"
+  },
+  "footer": {
+    "tagline": "The specs speak for themselves: grades, conditions and verifiable test data.",
+    "hotlineLabel": "Hotline",
+    "hotline": "400-800-0000",
+    "sections": {
+      "products": "Products",
+      "solutions": "Solutions",
+      "quickLinks": "Quick Links"
+    },
+    "quickLinks": {
+      "grades": "Grade Finder",
+      "cases": "Case Studies",
+      "factory": "Factory",
+      "certifications": "Certifications",
+      "news": "News",
+      "about": "About Us"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "terms": "Terms of Service",
+      "icp": "京ICP备00000000号"
+    },
+    "copyright": "© {year} Hejin Carbide. All rights reserved."
+  },
+  "home": {
+    "heroTitle": "Tungsten Carbide Materials & Precision Parts Manufacturer",
+    "heroSubtitle": "Complete grade portfolios with verifiable data for machining, mining and wear applications.",
+    "heroPrimaryCta": "Browse Products",
+    "heroSecondaryCta": "Submit an Inquiry",
+    "inquiryHint": "Get grade recommendations and a quote",
+    "productsHeading": "Product Center",
+    "productsSubheading": "Five product lines covering cutting, mining and wear applications"
+  },
+  "pages": {
+    "products": {
+      "title": "Products",
+      "description": "Filter carbide products by grade and application, view spec tables, download datasheets and send inquiries."
+    },
+    "grades": {
+      "title": "Grade Finder",
+      "description": "Full grade data table: cobalt content, grain size, density, HRA and transverse rupture strength, with filtering and side-by-side comparison."
+    },
+    "solutions": {
+      "title": "Solutions",
+      "description": "Organized by application: problem → condition → recommended grade → measured data."
+    },
+    "cases": {
+      "title": "Case Studies",
+      "description": "Customer cases: background → conditions → grade selection → verifiable data."
+    },
+    "factory": {
+      "title": "Factory",
+      "description": "Sintering line process and inspection center, with capacity data published continuously."
+    },
+    "certifications": {
+      "title": "Certifications",
+      "description": "ISO certifications and patents, viewable in full size."
+    },
+    "news": {
+      "title": "News",
+      "description": "Technical articles and industry content for SEO."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Company history, team and contact information."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Inquiry form, drawing upload, hotline and WeChat."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "This page is managed by the CMS and published once the content layer is connected."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "description": "This page is managed by the CMS and published once the content layer is connected."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "This page is managed by the CMS and published once the content layer is connected."
+    }
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for may have been moved or removed.",
+    "action": "Back to home"
+  }
+}

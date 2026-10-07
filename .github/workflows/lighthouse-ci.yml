@@ -1,0 +1,52 @@
+# Lighthouse CI 性能预算门禁 —— 口径见 docs/frontend/前端设计方案.md §一/§五
+# 断言阈值定义在 frontend/lighthouserc.json；任一 error 级断言超标即构建失败（回归即失败）。
+name: Lighthouse CI
+
+on:
+  pull_request:
+    paths:
+      - "frontend/**"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/lighthouse-ci.yml"
+  push:
+    branches: [main]
+    paths:
+      - "frontend/**"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/lighthouse-ci.yml"
+
+jobs:
+  lighthouse:
+    name: 性能预算门禁
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 版本由根 package.json 的 packageManager: pnpm@11.7.0 决定
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: 安装依赖（workspace 根）
+        run: pnpm install --frozen-lockfile
+
+      - name: 构建前端（全静态预渲染）
+        run: pnpm -C frontend build
+
+      - name: Lighthouse CI 采集与断言
+        # ubuntu-latest 预装 Google Chrome，chrome-launcher 可直接发现
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: pnpm -C frontend ci:lighthouse
+
+      - name: 上传 Lighthouse 报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: frontend/.lighthouseci
+          retention-days: 14
